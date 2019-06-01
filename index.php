@@ -28,19 +28,19 @@
 </head>
 <body>
 
-	<div class="uk-section uk-section-default uk-section-small" id="main">
+	<div class="uk-section uk-section-small" id="main">
 		<div class="uk-container uk-container-small">
-			<div uk-grid uk-filter="target: .js-filter">
+			<div uk-grid>
 				<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-6@m">
-					<ul class="uk-list uk-list-nav uk-link-text uk-text-right">
-						<a class="uk-logo" href="/">
-							<img data-src="/img/logo.png" alt="Nenomia" uk-img>
-						</a>
-						<hr class="uk-divider-small">
-						<li class="neno-filter" uk-filter-control><a class="uk-link-reset" href="#">All</a></li>
-						<li class="neno-filter" uk-filter-control="filter: .tag-white"><a class="uk-link-reset" href="#">Timelines</a></li>
-						<li class="neno-filter" uk-filter-control="filter: .tag-blue"><a class="uk-link-reset" href="#">Key Players</a></li>
-					</ul>
+					<a class="uk-logo" href="/">
+						<img data-src="/img/logo.png" alt="Nenomia" uk-img>
+					</a>
+					<hr class="uk-divider-small">
+					<div class="filter-button-group uk-text-right">
+						<button class="neno-filter" data-filter="*">All</button>
+						<button class="neno-filter" data-filter=".tag-timelines">Timelines</button>
+						<button class="neno-filter" data-filter=".tag-keyplayers">Key Players</button>
+					</div>
 					<div class="uk-section uk-section-default uk-section-xsmall" id="footer">
 						<div class="uk-container">
 							<p class="uk-text-right">
@@ -55,7 +55,7 @@
 				<div class="uk-width-1-1 uk-width-2-3@s uk-width-5-6@m">
 					<div class="js-filter grid uk-text-center">
 						<div class="grid-sizer"></div>
-						<div class="grid-item tag-white">
+						<div class="grid-item tag-timelines" data-category="tag-timelines">
 							<div href="#" class="neno-card">
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
@@ -69,7 +69,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="grid-item tag-blue">
+						<div class="grid-item tag-keyplayers" data-category="tag-keyplayers">
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
@@ -83,7 +83,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="grid-item tag-white">
+						<div class="grid-item tag-timelines" data-category="tag-timelines">
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
@@ -97,7 +97,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="grid-item tag-white">
+						<div class="grid-item tag-timelines" data-category="tag-timelines">
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
@@ -111,7 +111,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="grid-item tag-blue">
+						<div class="grid-item tag-keyplayers" data-category="tag-keyplayers">
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
@@ -139,7 +139,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="grid-item tag-blue">
+						<div class="grid-item tag-keyplayers" data-category="tag-keyplayers">
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
@@ -153,7 +153,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="grid-item tag-white">
+						<div class="grid-item tag-timelines" data-category="tag-timelines">
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
@@ -167,7 +167,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="grid-item tag-blue">
+						<div class="grid-item tag-keyplayers" data-category="tag-keyplayers">
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
@@ -210,6 +210,7 @@
 	<script src="js/uikit-icons.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/script.js"></script>
 

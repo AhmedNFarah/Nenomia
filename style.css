@@ -88,6 +88,22 @@ p {
   color: #777;
 }
 
+/* Filtering */
+
+button.neno-filter {
+  display: block;
+  margin: 10px;
+  padding: 0;
+  font-family: Oswald;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: 0px;
+}
+
+button.neno-filter:focus {
+  outline: none;
+}
+
 /* Media Queries */
 
 .grid-sizer,
