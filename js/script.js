@@ -10,7 +10,7 @@ $(document).ready(function () {
       itemSelector: '.grid-item',
       columnWidth: '.grid-sizer',
       percentPosition: true,
-      gutter: 35
+      gutter: '.gutter-sizer'
     }
     });
     $grid.imagesLoaded().progress( function() {

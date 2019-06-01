@@ -35,7 +35,7 @@
 					<a class="uk-logo" href="/">
 						<img data-src="/img/logo.png" alt="Nenomia" uk-img>
 					</a>
-					<hr class="uk-divider-small uk-text-center">
+					<hr class="uk-text-center">
 					<div class="filter-button-group uk-text-right">
 						<h5 class="neno-filter uk-heading-line uk-text-right" data-filter="*"><span>All</span></h5>
 						<h5 class="neno-filter uk-heading-line uk-text-right" data-filter=".tag-timelines"><span>Timelines</span></h5>
@@ -46,6 +46,7 @@
 				<div class="uk-width-1-1 uk-width-2-3@s uk-width-4-5@m">
 					<div class="js-filter grid uk-text-center">
 						<div class="grid-sizer"></div>
+						<div class="gutter-sizer"></div>
 						<div class="grid-item tag-timelines" data-category="tag-timelines">
 							<div href="#" class="neno-card">
 								<div class="uk-card uk-card-default">
