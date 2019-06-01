@@ -42,6 +42,10 @@ li.uk-active {
   outline: none;
 }
 
+p {
+  font-size: .9rem;
+}
+
 /* Navigation */
 .uk-list-nav li {
 	font-family: Oswald;
@@ -61,4 +65,72 @@ li.uk-active {
   border: 1px solid #e1e1e1;
   border-top: 0px;
   text-align: left;
+}
+
+.uk-card-title {
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+.neno-card:hover {
+  box-shadow: 0 0
+  text-decoration: none;
+}
+
+.neno-link {
+  font-size: .8em;
+  float: right;
+  color: #777;
+}
+
+.neno-link:hover {
+  text-decoration: none;
+  color: #777;
+}
+
+/* Media Queries */
+
+.grid-sizer,
+.grid-item {
+  width: 30%;
+}
+
+.grid-item {
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-sizer,
+  .grid-item {
+    width: 47.4%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .grid-sizer,
+  .grid-item {
+    width: 30%;
+  }
+}
+
+/* Footer */
+footer {
+  margin: 15px;
+  font-size: .8rem;
+  text-align: center;
+  color: #777;
 }
