@@ -91,9 +91,7 @@ p {
 /* Filtering */
 
 button.neno-filter {
-  display: block;
-  margin: 10px;
-  padding: 0;
+  margin-right: 10px;
   font-family: Oswald;
   font-size: 1.2em;
   background-color: transparent;
@@ -145,8 +143,6 @@ button.neno-filter:focus {
 
 /* Footer */
 footer {
-  margin: 15px;
   font-size: .8rem;
-  text-align: center;
   color: #777;
 }

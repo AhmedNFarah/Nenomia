@@ -41,15 +41,6 @@
 						<button class="neno-filter" data-filter=".tag-timelines">Timelines</button>
 						<button class="neno-filter" data-filter=".tag-keyplayers">Key Players</button>
 					</div>
-					<div class="uk-section uk-section-default uk-section-xsmall" id="footer">
-						<div class="uk-container">
-							<p class="uk-text-right">
-								<a href="#" class="uk-margin-small-right" uk-icon="whatsapp"></a>
-								<a href="#" class="uk-margin-small-right" uk-icon="youtube"></a>
-								<a href="#" class="uk-margin-small-right" uk-icon="facebook"></a>
-							</p>
-						</div>
-					</div> <!-- Footer section -->
 				</div>
 
 				<div class="uk-width-1-1 uk-width-2-3@s uk-width-5-6@m">
@@ -201,8 +192,16 @@
 		</div> <!-- Main container -->
 	</div> <!-- Main section -->
 
-	<footer class="uk-text-center">
-		<?php echo '&copy; Nenomia | '.date('Y');?>
+	<footer>
+		<div class="uk-section uk-section-default uk-section-xsmall" id="footer">
+			<div class="uk-container">
+				<p class="uk-text-center">
+					Made with <i class="fas fa-heart"></i>
+					<br />
+					<?php echo 'Nenomia &copy; '.date('Y');?>
+				</p>
+			</div>
+		</div> <!-- Footer section -->
 	</footer>
 
 	<script src="js/jquery-3.3.1.js"></script>
