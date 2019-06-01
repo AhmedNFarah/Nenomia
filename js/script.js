@@ -3,22 +3,23 @@ $(document).ready(function () {
     'opacity': '1'
   }, 500);
 
-  var $grid = $('.grid').imagesLoaded( function() {
-    $grid.isotope({
+  var $grid = $('.grid').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    masonry: {
       itemSelector: '.grid-item',
+      columnWidth: '.grid-sizer',
       percentPosition: true,
-      masonry: {
-        itemSelector: '.grid-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true,
-        gutter: 37
-      }
+      gutter: 35
+    }
+    });
+    $grid.imagesLoaded().progress( function() {
+      $grid.isotope('layout');
+
+      $('.filter-button-group h5').on( 'click', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+      });
     });
 
-    $('.filter-button-group').on( 'click', 'button', function() {
-      var filterValue = $(this).attr('data-filter');
-      $grid.isotope({ filter: filterValue });
-    });
   });
-
-});

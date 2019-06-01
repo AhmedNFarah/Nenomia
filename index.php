@@ -31,19 +31,19 @@
 	<div class="uk-section uk-section-small" id="main">
 		<div class="uk-container uk-container-small">
 			<div uk-grid>
-				<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-6@m">
+				<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-5@m">
 					<a class="uk-logo" href="/">
 						<img data-src="/img/logo.png" alt="Nenomia" uk-img>
 					</a>
-					<hr class="uk-divider-small">
+					<hr class="uk-divider-small uk-text-center">
 					<div class="filter-button-group uk-text-right">
-						<button class="neno-filter" data-filter="*">All</button>
-						<button class="neno-filter" data-filter=".tag-timelines">Timelines</button>
-						<button class="neno-filter" data-filter=".tag-keyplayers">Key Players</button>
+						<h5 class="neno-filter uk-heading-line uk-text-right" data-filter="*"><span>All</span></h5>
+						<h5 class="neno-filter uk-heading-line uk-text-right" data-filter=".tag-timelines"><span>Timelines</span></h5>
+						<h5 class="neno-filter uk-heading-line uk-text-right" data-filter=".tag-keyplayers"><span>Key Players</span></h5>
 					</div>
 				</div>
 
-				<div class="uk-width-1-1 uk-width-2-3@s uk-width-5-6@m">
+				<div class="uk-width-1-1 uk-width-2-3@s uk-width-4-5@m">
 					<div class="js-filter grid uk-text-center">
 						<div class="grid-sizer"></div>
 						<div class="grid-item tag-timelines" data-category="tag-timelines">
@@ -193,15 +193,13 @@
 	</div> <!-- Main section -->
 
 	<footer>
-		<div class="uk-section uk-section-default uk-section-xsmall" id="footer">
-			<div class="uk-container">
-				<p class="uk-text-center">
-					Made with <i class="fas fa-heart"></i>
-					<br />
-					<?php echo 'Nenomia &copy; '.date('Y');?>
-				</p>
-			</div>
-		</div> <!-- Footer section -->
+		<div class="uk-container">
+			<p class="uk-text-center">
+				Made with <i class="fas fa-heart"></i>
+				<br />
+				<?php echo 'Nenomia &copy; '.date('Y');?>
+			</p>
+		</div>
 	</footer>
 
 	<script src="js/jquery-3.3.1.js"></script>

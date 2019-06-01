@@ -10,18 +10,27 @@ Author URI: http://www.nenomia.com
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
 
 /* DEFAULTS */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 html {
   height: 100%;
   overflow-y: scroll;
+  box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
   font-family: "Roboto";
   opacity: 0;
 }
+
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: Oswald;
@@ -90,15 +99,14 @@ p {
 
 /* Filtering */
 
-button.neno-filter {
-  margin-right: 10px;
+.neno-filter {
   font-family: Oswald;
-  font-size: 1.2em;
-  background-color: transparent;
-  border: 0px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-button.neno-filter:focus {
+.neno-filter:focus {
   outline: none;
 }
 
@@ -130,7 +138,7 @@ button.neno-filter:focus {
 @media only screen and (min-width: 768px) {
   .grid-sizer,
   .grid-item {
-    width: 47.4%;
+    width: 46.6%;
   }
 }
 
@@ -143,6 +151,11 @@ button.neno-filter:focus {
 
 /* Footer */
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
   font-size: .8rem;
   color: #777;
 }
