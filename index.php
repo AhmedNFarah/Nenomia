@@ -28,8 +28,9 @@
 </head>
 <body>
 
-	<div class="uk-section uk-section-small" id="main">
+	<div class="uk-section uk-section-small">
 		<div class="uk-container uk-container-small">
+
 			<div uk-grid>
 				<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-5@m">
 					<a class="uk-logo" href="/">
@@ -187,9 +188,10 @@
 								</div>
 							</div>
 						</div>
-					</ul>
+					</div>
 				</div>
 			</div>
+
 		</div> <!-- Main container -->
 	</div> <!-- Main section -->
 
