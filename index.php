@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/uikit.min.css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="style.css" />
+	<script defer src="/js/all.js"></script>
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
@@ -24,27 +25,64 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<script defer src="/js/all.js"></script>
 </head>
 <body>
+	<br />
+	<div class="uk-section uk-padding-remove">
+		<div class="uk-container uk-container-small">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="/">
+					<img src="/img/logo.png" alt="Nenomia" width="200">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Latest</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Featured</a>
+						</li>
+					</ul>
+					<div class="form-inline my-2 my-lg-0">
+						<a class="uk-navbar-toggle" href="#" uk-search-icon></a>
+						<div class="uk-navbar-dropdown" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+
+							<div class="uk-grid-small uk-flex-middle" uk-grid>
+								<div class="uk-width-expand">
+									<form class="uk-search uk-search-navbar uk-width-1-1">
+										<input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+									</form>
+								</div>
+								<div class="uk-width-auto">
+									<a class="uk-navbar-dropdown-close" href="#" uk-close></a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
 
 	<div class="uk-section uk-section-small">
 		<div class="uk-container uk-container-small">
-
 			<div uk-grid>
-				<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-5@m">
-					<a class="uk-logo" href="/">
-						<img data-src="/img/logo.png" alt="Nenomia" uk-img>
-					</a>
-					<hr class="uk-text-center">
+				<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-4@m">
 					<div class="filter-button-group uk-text-right">
-						<h5 class="neno-filter uk-heading-line uk-text-right" data-filter="*"><span>All</span></h5>
-						<h5 class="neno-filter uk-heading-line uk-text-right" data-filter=".tag-timelines"><span>Timelines</span></h5>
-						<h5 class="neno-filter uk-heading-line uk-text-right" data-filter=".tag-keyplayers"><span>Key Players</span></h5>
+						<h5 class="neno-filter" data-filter="*">All</h5>
+						<h5 class="neno-filter" data-filter=".tag-timelines">Timelines</h5>
+						<h5 class="neno-filter" data-filter=".tag-keyplayers">Key Players</h5>
 					</div>
 				</div>
 
-				<div class="uk-width-1-1 uk-width-2-3@s uk-width-4-5@m">
+				<div class="uk-width-1-1 uk-width-2-3@s uk-width-3-4@m">
 					<div class="js-filter grid uk-text-center">
 						<div class="grid-sizer"></div>
 						<div class="gutter-sizer"></div>

@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
   $('body').animate({
     'opacity': '1'
   }, 500);
@@ -12,14 +13,14 @@ $(document).ready(function () {
       percentPosition: true,
       gutter: '.gutter-sizer'
     }
-    });
-    $grid.imagesLoaded().progress( function() {
-      $grid.isotope('layout');
-
-      $('.filter-button-group h5').on( 'click', function() {
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
-      });
-    });
-
   });
+
+  $grid.imagesLoaded().progress( function() {
+    $grid.isotope('layout');
+    $('.filter-button-group h5').on( 'click', function() {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+    });
+  });
+
+});
