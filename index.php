@@ -90,7 +90,7 @@
 							<div href="#" class="neno-card">
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559302995-ab792ee16ce8?ixlib=rb-1.2.1&auto=format&fit=crop&w=614&q=80" alt="">
+										<img src="https://images.unsplash.com/photo-1559302995-ab792ee16ce8?ixlib=rb-1.2.1&auto=format&fit=crop&w=614&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>
@@ -104,7 +104,7 @@
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="/img/favicon.png" alt="">
+										<img src="" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>
@@ -118,7 +118,7 @@
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559257153-ab1781ff8d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+										<img src="https://images.unsplash.com/photo-1559257153-ab1781ff8d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>
@@ -132,7 +132,7 @@
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559255394-044328bfa8b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=635&q=80" alt="">
+										<img src="https://images.unsplash.com/photo-1559255394-044328bfa8b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=635&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>
@@ -146,7 +146,7 @@
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559250543-36c18ccff71d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+										<img src="https://images.unsplash.com/photo-1559250543-36c18ccff71d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>
@@ -160,7 +160,7 @@
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559255394-d92ddc3250e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+										<img src="https://images.unsplash.com/photo-1559255394-d92ddc3250e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>
@@ -174,7 +174,7 @@
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+										<img src="https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>
@@ -188,7 +188,7 @@
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="/img/favicon.png" alt="">
+										<img src="" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>
@@ -202,7 +202,7 @@
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="/img/favicon.png" alt="">
+										<img src="" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>
@@ -216,7 +216,7 @@
 							<div>
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="/img/favicon.png" alt="">
+										<img src="" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
 										<h3 class="uk-card-title">Media Top</h3>

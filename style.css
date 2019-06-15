@@ -75,7 +75,7 @@ p {
 }
 
 .uk-card .uk-card-body {
-  margin: 0 1px;
+  margin: 0;
   padding: 10px;
   border: 1px solid #e1e1e1;
   border-top: 0px;
