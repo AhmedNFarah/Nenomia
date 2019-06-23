@@ -74,7 +74,7 @@
 	<div class="uk-section uk-section-small">
 		<div class="uk-container uk-container-small">
 			<div uk-grid>
-				<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-4@m">
+				<div class="uk-width-1-1 uk-width-1-4@s uk-width-1-5@m">
 					<div class="filter-button-group uk-text-right">
 						<h5 class="neno-filter" data-filter="*">All</h5>
 						<h5 class="neno-filter" data-filter=".tag-timelines">Timelines</h5>
@@ -82,7 +82,7 @@
 					</div>
 				</div>
 
-				<div class="uk-width-1-1 uk-width-2-3@s uk-width-3-4@m">
+				<div class="uk-width-1-1 uk-width-3-4@s uk-width-4-5@m">
 					<div class="js-filter grid uk-text-center">
 						<div class="grid-sizer"></div>
 						<div class="gutter-sizer"></div>
