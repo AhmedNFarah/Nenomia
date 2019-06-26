@@ -47,6 +47,13 @@ p {
   font-size: .9rem;
 }
 
+.info-box {
+  margin: 25px auto 5px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+}
+
 /* Navigation */
 .navbar {
   padding: 0 0 10px;

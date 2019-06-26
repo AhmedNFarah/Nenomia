@@ -80,6 +80,9 @@
 						<h5 class="neno-filter" data-filter=".tag-timelines">Timelines</h5>
 						<h5 class="neno-filter" data-filter=".tag-keyplayers">Key Players</h5>
 					</div>
+					<div class="info-box">
+					    This will be the Nenomia info box
+					</div>
 				</div>
 
 				<div class="uk-width-1-1 uk-width-3-4@s uk-width-4-5@m">
@@ -236,7 +239,7 @@
 	<footer>
 		<div class="uk-container">
 			<p class="uk-text-center">
-				Made with <i class="fas fa-heart"></i>
+				<!-- Made with <i class="fas fa-heart"></i> -->
 				<br />
 				<?php echo 'Nenomia &copy; '.date('Y');?>
 			</p>
