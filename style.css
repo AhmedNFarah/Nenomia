@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 a,
 li.uk-active {
-  color: #ff6347;
+  color: #ff7e30;
   outline: none;
 }
 
@@ -72,7 +72,7 @@ p {
 }
 
 .my-feed li {
-  border-right: 2px solid #ff6347;
+  border-right: 2px solid #ff7e30;
 }
 
 /* Cards */

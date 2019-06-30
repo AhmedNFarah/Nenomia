@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Nenomia</title>
+	<title>Ebru</title>
 	<link rel="stylesheet" href="css/uikit.min.css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="style.css" />
@@ -27,61 +27,35 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 <body>
-	<br />
-	<div class="uk-section uk-padding-remove">
-		<div class="uk-container uk-container-small">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand" href="/">
-					<img src="/img/logo.png" alt="Nenomia" width="200">
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Latest</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Featured</a>
-						</li>
-					</ul>
-					<div class="form-inline my-2 my-lg-0">
-						<a class="uk-navbar-toggle" href="#" uk-search-icon></a>
-						<div class="uk-navbar-dropdown" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
-
-							<div class="uk-grid-small uk-flex-middle" uk-grid>
-								<div class="uk-width-expand">
-									<form class="uk-search uk-search-navbar uk-width-1-1">
-										<input class="uk-search-input" type="search" placeholder="Search..." autofocus>
-									</form>
-								</div>
-								<div class="uk-width-auto">
-									<a class="uk-navbar-dropdown-close" href="#" uk-close></a>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</div>
 
 	<div class="uk-section uk-section-small">
 		<div class="uk-container uk-container-small">
+
+			<nav>
+		  <div class="nav nav-tabs justify-content-end" id="nav-tab" role="tablist">
+				<a class="nav-item mr-auto" href="/" style="padding: 0 5px 5px;">
+					<img src="/img/logo.png" alt="Ebru TV" width="150">
+				</a>
+		    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-home"></i> Latest Heat</a>
+		    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-fire"></i> Hottest of All Time</a>
+				<a class="nav-item nav-link" id="nav-user-tab" data-toggle="tab" href="#nav-user" role="tab" aria-controls="nav-user" aria-selected="false"><i class="fas fa-user"></i> John Smith</a>
+				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fas fa-cog"></i> Settings</a>
+		  </div>
+		</nav>
+		<div class="tab-content" id="nav-tabContent">
+		  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+				<br/>
 			<div uk-grid>
 				<div class="uk-width-1-1 uk-width-1-4@s uk-width-1-5@m">
 					<div class="filter-button-group uk-text-right">
 						<h5 class="neno-filter" data-filter="*">All</h5>
-						<h5 class="neno-filter" data-filter=".tag-timelines">Timelines</h5>
-						<h5 class="neno-filter" data-filter=".tag-keyplayers">Key Players</h5>
-					</div>
-					<div class="info-box">
-					    This will be the Nenomia info box
+						<h5 class="neno-filter" data-filter=".tag-timelines">News</h5>
+						<h5 class="neno-filter" data-filter=".tag-keyplayers">Celebs</h5>
+						<h5 class="neno-filter" data-filter=".tag-keyplayers">Pictures</h5>
+						<h5 class="neno-filter" data-filter=".tag-keyplayers">Videos</h5>
+						<h5 class="neno-filter" data-filter=".tag-keyplayers">TV</h5>
+						<h5 class="neno-filter" data-filter=".tag-keyplayers">Food</h5>
+						<h5 class="neno-filter" data-filter=".tag-keyplayers">Fashion</h5>
 					</div>
 				</div>
 
@@ -89,7 +63,8 @@
 					<div class="js-filter grid uk-text-center">
 						<div class="grid-sizer"></div>
 						<div class="gutter-sizer"></div>
-						<div class="grid-item tag-timelines" data-category="tag-timelines">
+
+						<div class="grid-item tag-timelines" data-category="tag-news">
 							<div href="#" class="neno-card">
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
@@ -103,148 +78,34 @@
 								</div>
 							</div>
 						</div>
-						<div class="grid-item tag-keyplayers" data-category="tag-keyplayers">
-							<div>
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top">
-										<img src="" alt="Loading..." onerror="this.src='/img/noimage.png';" />
-									</div>
-									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur, sed do eiusmod tempor incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item tag-timelines" data-category="tag-timelines">
-							<div>
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559257153-ab1781ff8d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
-									</div>
-									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod consectetur consectetur consectetur tempor incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item tag-timelines" data-category="tag-timelines">
-							<div>
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559255394-044328bfa8b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=635&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
-									</div>
-									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur consectetur incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item tag-keyplayers" data-category="tag-keyplayers">
-							<div>
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559250543-36c18ccff71d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
-									</div>
-									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item tag-black">
-							<div>
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559255394-d92ddc3250e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
-									</div>
-									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do consectetur eiusmod tempor incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item tag-keyplayers" data-category="tag-keyplayers">
-							<div>
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
-									</div>
-									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur sed do eiusmod tempor incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item tag-timelines" data-category="tag-timelines">
-							<div>
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top">
-										<img src="" alt="Loading..." onerror="this.src='/img/noimage.png';" />
-									</div>
-									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do consectetur consectetur eiusmod tempor incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item tag-keyplayers" data-category="tag-keyplayers">
-							<div>
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top">
-										<img src="" alt="Loading..." onerror="this.src='/img/noimage.png';" />
-									</div>
-									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing consectetur consectetur elit, sed do eiusmod tempor incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item tag-black">
-							<div>
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top">
-										<img src="" alt="Loading..." onerror="this.src='/img/noimage.png';" />
-									</div>
-									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur, sed do eiusmod tempor incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
-									</div>
-								</div>
-							</div>
-						</div>
+
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><h1 class="display-4">Top Posts of All Time Page</h1>
+</div>
+		<div class="tab-pane fade" id="nav-user" role="tabpanel" aria-labelledby="nav-user-tab"><h1 class="display-4">Profile Page</h1>
+</div>
+		<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><h1 class="display-4">Settings Page</h1>
+</div>
+		</div>
+
+
 
 		</div> <!-- Main container -->
 	</div> <!-- Main section -->
 
-	<footer>
+	<!-- <footer>
 		<div class="uk-container">
 			<p class="uk-text-center">
-				<!-- Made with <i class="fas fa-heart"></i> -->
+				Made with <i class="fas fa-heart"></i>
 				<br />
-				<?php echo 'Nenomia &copy; '.date('Y');?>
+				<?php echo 'Ebru &copy; '.date('Y');?>
 			</p>
 		</div>
-	</footer>
+	</footer> -->
+
 
 	<script src="js/jquery-3.3.1.js"></script>
 	<script src="js/uikit.min.js"></script>
