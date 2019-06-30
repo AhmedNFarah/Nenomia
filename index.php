@@ -96,16 +96,13 @@
 		</div> <!-- Main container -->
 	</div> <!-- Main section -->
 
-	<!-- <footer>
+	<footer>
 		<div class="uk-container">
 			<p class="uk-text-center">
-				Made with <i class="fas fa-heart"></i>
-				<br />
-				<?php echo 'Ebru &copy; '.date('Y');?>
+				Ebru &copy;2019
 			</p>
 		</div>
-	</footer> -->
-
+	</footer>
 
 	<script src="js/jquery-3.3.1.js"></script>
 	<script src="js/uikit.min.js"></script>
