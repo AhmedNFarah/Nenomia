@@ -36,6 +36,7 @@
 				<a class="nav-item mr-auto" href="/" style="padding: 0 5px 5px;">
 					<img src="/img/logo.png" alt="Ebru TV" width="150">
 				</a>
+				<hr />
 		    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-home"></i> Latest Heat</a>
 		    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-fire"></i> Hottest of All Time</a>
 				<a class="nav-item nav-link" id="nav-user-tab" data-toggle="tab" href="#nav-user" role="tab" aria-controls="nav-user" aria-selected="false"><i class="fas fa-user"></i> John Smith</a>
@@ -68,12 +69,44 @@
 							<div href="#" class="neno-card">
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top">
-										<img src="https://images.unsplash.com/photo-1559302995-ab792ee16ce8?ixlib=rb-1.2.1&auto=format&fit=crop&w=614&q=80" alt="Loading..." onerror="this.src='/img/noimage.png';" />
+										<img src="http://www.ebru.co.ke/wp-content/uploads/2019/06/cbk-640x480.jpg" alt="Loading..." onerror="this.src='/img/noimage.png';" />
 									</div>
 									<div class="uk-card-body">
-										<h3 class="uk-card-title">Media Top</h3>
-										<p>Lorem ipsum dolor sit amet, consecteturconsectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-										<a href="#" class="neno-link"><i class="fas fa-outdent"></i> The Placeholder Timeline</a>
+										<h3 class="uk-card-title">World’s central banks to tackle technology with BIS innovation hub</h3>
+										<p>Central banks grappling with fast-changing financial technology and companies like Facebook moving into finance will aim to work together..</p>
+										<ul class="vote list-inline text-right">
+  										<li class="list-inline-item">
+												<a href="#" class="neno-link"><i class="fas fa-fire-alt"></i> 8</a>
+											</li>
+											<li class="list-inline-item">
+												<a href="#" class="neno-link"><i class="fas fa-fire-extinguisher"></i> 1</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+
+						<div class="grid-item tag-timelines" data-category="tag-news">
+							<div href="#" class="neno-card">
+								<div class="uk-card uk-card-default">
+									<div class="uk-card-media-top">
+										<img src="http://www.ebru.co.ke/wp-content/uploads/2019/06/TRAMADOL-640x427.jpg" alt="Loading..." onerror="this.src='/img/noimage.png';" />
+									</div>
+									<div class="uk-card-body">
+										<h3 class="uk-card-title">UN-Africa hit by a tramadol ‘crisis’ as opioid use booms</h3>
+										<p>Synthetic opioid use is booming, the United Nations said on Wednesday in a worldwide drug report that showed deaths in the United States from overdoses still rising and a “crisis” of tramadol use emerging in parts of Africa..</p>
+										<ul class="vote list-inline text-right">
+  										<li class="list-inline-item">
+												<a href="#" class="neno-link"><i class="fas fa-fire-alt"></i> 4</a>
+											</li>
+											<li class="list-inline-item">
+												<a href="#" class="neno-link"><i class="fas fa-fire-extinguisher"></i> 0</a>
+											</li>
+										</ul>
 									</div>
 								</div>
 							</div>

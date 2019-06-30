@@ -100,14 +100,14 @@ p {
 }
 
 .neno-link {
-  font-size: .8em;
+  font-size: .9em;
   float: right;
-  color: #777;
+  color: #777
 }
 
 .neno-link:hover {
   text-decoration: none;
-  color: #777;
+  color: #ff7e30;
 }
 
 /* Filtering */
