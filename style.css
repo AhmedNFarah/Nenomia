@@ -52,6 +52,15 @@ p {
   font-size: .9rem;
 }
 
+.badge {
+  padding: 5px;
+  font-size: 90%;
+}
+
+.badge-pill {
+  border-radius: 0;
+}
+
 .info-box {
   margin: 25px auto 5px;
   padding: 5px;
@@ -179,9 +188,14 @@ p {
 }
 
 /* Settings Page*/
+
 .profile {
+  padding: 10px 10px 0 0;
   border-right: 1px solid #e1e1e1;
-  padding: 30px;
+}
+
+.settings {
+  padding: 10px;
 }
 
 /* Footer */
