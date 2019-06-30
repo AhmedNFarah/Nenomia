@@ -33,8 +33,8 @@
 
 			<nav>
 		  <div class="nav nav-tabs justify-content-end" id="nav-tab" role="tablist">
-				<a class="nav-item mr-auto" href="/" style="padding: 0 5px 5px;">
-					<img src="/img/logo.png" alt="Ebru TV" width="150">
+				<a class="nav-item mr-auto" href="/" style="padding: 0 0 5px;">
+					<img src="/img/logo.png" alt="Ebru TV" width="200">
 				</a>
 				<hr />
 		    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-home"></i> Latest Heat</a>
@@ -50,13 +50,14 @@
 				<div class="uk-width-1-1 uk-width-1-4@s uk-width-1-5@m">
 					<div class="filter-button-group uk-text-right">
 						<h5 class="neno-filter" data-filter="*">All</h5>
-						<h5 class="neno-filter" data-filter=".tag-timelines">News</h5>
-						<h5 class="neno-filter" data-filter=".tag-keyplayers">Celebs</h5>
-						<h5 class="neno-filter" data-filter=".tag-keyplayers">Pictures</h5>
-						<h5 class="neno-filter" data-filter=".tag-keyplayers">Videos</h5>
-						<h5 class="neno-filter" data-filter=".tag-keyplayers">TV</h5>
-						<h5 class="neno-filter" data-filter=".tag-keyplayers">Food</h5>
-						<h5 class="neno-filter" data-filter=".tag-keyplayers">Fashion</h5>
+						<h5 class="neno-filter" data-filter=".tag-news">News</h5>
+						<h5 class="neno-filter" data-filter=".tag-celebs">Celebs</h5>
+						<h5 class="neno-filter" data-filter=".tag-videos">Videos</h5>
+						<h5 class="neno-filter" data-filter=".tag-sports">Sports</h5>
+						<h5 class="neno-filter" data-filter=".tag-lifestyle">Lifestyle</h5>
+						<h5 class="neno-filter" data-filter=".tag-fashion">Fashion</h5>
+						<h5 class="neno-filter" data-filter=".tag-tv">TV</h5>
+						<h5 class="neno-filter" data-filter=".tag-humour">Humour</h5>
 					</div>
 				</div>
 
