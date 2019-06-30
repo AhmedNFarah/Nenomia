@@ -40,7 +40,6 @@
 				<hr />
 				<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-home"></i> Latest Heat</a>
 				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-fire"></i> Hottest of All Time</a>
-				<a class="nav-item nav-link" id="nav-user-tab" data-toggle="tab" href="#nav-user" role="tab" aria-controls="nav-user" aria-selected="false"><i class="fas fa-user"></i> John Smith</a>
 				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fas fa-cog"></i> Settings</a>
 			</div>
 		</nav>
@@ -50,15 +49,15 @@
 				<div uk-grid>
 					<div class="uk-width-1-1 uk-width-1-4@s uk-width-1-5@m">
 						<div class="filter-button-group uk-text-right">
-							<h5 class="neno-filter" data-filter="*">All</h5>
-							<h5 class="neno-filter" data-filter=".tag-news">News</h5>
-							<h5 class="neno-filter" data-filter=".tag-celebs">Celebs</h5>
-							<h5 class="neno-filter" data-filter=".tag-videos">Videos</h5>
-							<h5 class="neno-filter" data-filter=".tag-sports">Sports</h5>
-							<h5 class="neno-filter" data-filter=".tag-lifestyle">Lifestyle</h5>
-							<h5 class="neno-filter" data-filter=".tag-fashion">Fashion</h5>
-							<h5 class="neno-filter" data-filter=".tag-tv">TV</h5>
-							<h5 class="neno-filter" data-filter=".tag-humour">Humour</h5>
+							<h5 class="site-filter" data-filter="*">All</h5>
+							<h5 class="site-filter" data-filter=".tag-news">News</h5>
+							<h5 class="site-filter" data-filter=".tag-celebs">Celebs</h5>
+							<h5 class="site-filter" data-filter=".tag-videos">Videos</h5>
+							<h5 class="site-filter" data-filter=".tag-tv">TV</h5>
+							<h5 class="site-filter" data-filter=".tag-sports">Sports</h5>
+							<h5 class="site-filter" data-filter=".tag-lifestyle">Lifestyle</h5>
+							<h5 class="site-filter" data-filter=".tag-fashion">Fashion</h5>
+							<h5 class="site-filter" data-filter=".tag-humour">Humour</h5>
 						</div>
 					</div>
 
@@ -68,7 +67,7 @@
 							<div class="gutter-sizer"></div>
 
 							<div class="grid-item tag-timelines" data-category="tag-news">
-								<div href="#" class="neno-card">
+								<div href="#" class="site-card">
 									<div class="uk-card uk-card-default">
 										<div class="uk-card-media-top">
 											<img src="http://www.ebru.co.ke/wp-content/uploads/2019/06/cbk-640x480.jpg" alt="Loading..." onerror="this.src='/img/noimage.png';" />
@@ -78,10 +77,10 @@
 											<p>Central banks grappling with fast-changing financial technology and companies like Facebook moving into finance will aim to work together..</p>
 											<ul class="vote list-inline text-right">
 												<li class="list-inline-item">
-													<a href="#" class="neno-link"><i class="fas fa-fire-alt"></i> 8</a>
+													<a href="#" class="site-link"><i class="fas fa-fire-alt"></i> 8</a>
 												</li>
 												<li class="list-inline-item">
-													<a href="#" class="neno-link"><i class="fas fa-fire-extinguisher"></i> 1</a>
+													<a href="#" class="site-link"><i class="fas fa-fire-extinguisher"></i> 1</a>
 												</li>
 											</ul>
 										</div>
@@ -90,7 +89,7 @@
 							</div>
 
 							<div class="grid-item tag-timelines" data-category="tag-news">
-								<div href="#" class="neno-card">
+								<div href="#" class="site-card">
 									<div class="uk-card uk-card-default">
 										<div class="uk-card-media-top">
 											<img src="http://www.ebru.co.ke/wp-content/uploads/2019/06/TRAMADOL-640x427.jpg" alt="Loading..." onerror="this.src='/img/noimage.png';" />
@@ -101,10 +100,10 @@
 											</p>
 											<ul class="vote list-inline text-right">
 												<li class="list-inline-item">
-													<a href="#" class="neno-link"><i class="fas fa-fire-alt"></i> 4</a>
+													<a href="#" class="site-link"><i class="fas fa-fire-alt"></i> 4</a>
 												</li>
 												<li class="list-inline-item">
-													<a href="#" class="neno-link"><i class="fas fa-fire-extinguisher"></i> 0</a>
+													<a href="#" class="site-link"><i class="fas fa-fire-extinguisher"></i> 0</a>
 												</li>
 											</ul>
 										</div>
@@ -119,32 +118,44 @@
 			<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 				<h1 class="display-4">Top Posts of All Time Page</h1>
 			</div>
-			<div class="tab-pane fade" id="nav-user" role="tabpanel" aria-labelledby="nav-user-tab">
-				<h1 class="display-4">Profile Page</h1>
-			</div>
 			<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-				<h1 class="display-4">Settings Page</h1>
+
+				<div class="row">
+					<div class="col-4-md col-12-sm profile">
+						<div class="uk-grid-small uk-flex-middle" uk-grid>
+							<div class="uk-width-auto">
+								<img class="uk-border-circle" width="40" height="40" src="/img/profilepic.jpg">
+							</div>
+							<div class="uk-width-expand">
+								<h3 class="uk-card-title uk-margin-remove-bottom">John F. Smith</h3>
+								<p class="uk-text-meta uk-margin-remove-top">Rank: Newbie</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-8-md col-12-sm settings">
+						<h3>Settings</h3>
+					</div>
+				</div>
+
 			</div>
-		</div>
+		</div> <!-- Main container -->
 
-	</div> <!-- Main container -->
+		<footer>
+			<div class="uk-container">
+				<p class="uk-text-center">
+					Ebru &copy;2019
+				</p>
+			</div>
+		</footer>
 
-	<footer>
-		<div class="uk-container">
-			<p class="uk-text-center">
-				Ebru &copy;2019
-			</p>
-		</div>
-	</footer>
-
-	<script src="js/jquery-3.3.1.js"></script>
-	<script src="js/uikit.min.js"></script>
-	<script src="js/uikit-icons.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/isotope.pkgd.min.js"></script>
-	<script src="js/imagesloaded.pkgd.min.js"></script>
-	<script src="js/script.js"></script>
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/uikit.min.js"></script>
+		<script src="js/uikit-icons.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/script.js"></script>
 
 </body>
 

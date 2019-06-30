@@ -1,10 +1,10 @@
 /*
-Theme Name: Nenomia
-Theme URI: http://www.nenomia.com
-Description: Nenomia's official theme
+Theme Name: sitemia
+Theme URI: http://www.sitemia.com
+Description: sitemia's official theme
 Version: 1.0
 Author: Ahmed Farah
-Author URI: http://www.nenomia.com
+Author URI: http://www.sitemia.com
 */
 
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
@@ -106,32 +106,32 @@ p {
   line-height: normal;
 }
 
-.neno-card:hover {
+.site-card:hover {
   box-shadow: 0 0
   text-decoration: none;
 }
 
-.neno-link {
-  font-size: .9em;
+.site-link {
+  font-size: 14px;
   float: right;
   color: #777
 }
 
-.neno-link:hover {
+.site-link:hover {
   text-decoration: none;
   color: #ff7e30;
 }
 
 /* Filtering */
 
-.neno-filter {
+.site-filter {
   font-family: Oswald;
   font-size: 1.1em;
   text-transform: uppercase;
   cursor: pointer;
 }
 
-.neno-filter:focus {
+.site-filter:focus {
   outline: none;
 }
 
@@ -176,6 +176,12 @@ p {
   .grid-item {
     width: 31.3%;
   }
+}
+
+/* Settings Page*/
+.profile {
+  border-right: 1px solid #e1e1e1;
+  padding: 30px;
 }
 
 /* Footer */
